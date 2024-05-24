@@ -1,0 +1,60 @@
+ion-content{
+    --background: linear-gradient(to right top, #051937, #008793, #54ced6, #a8eb12);
+    justify-content: center;
+}
+ 
+
+
+.logo{
+    width: 100px;
+    filter: invert(1);
+}
+
+ion-toolbar{
+    --background: none;
+}
+
+ion-header{
+    box-shadow: none;
+}
+
+.sapato1{
+    width: 360px;
+    margin-left: -8%;
+    margin-top: 20%;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Holtwood+One+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+h1{
+    font-family: "Holtwood One SC", serif;
+}
+
+.summer{
+    color: #164773;
+    font-size: 250%;
+}
+
+.ano{
+    color: white;
+}
+
+.texto{
+    color: white;
+    width: 90%;
+    font-family: "Istok Web", sans-serif;
+}
+
+.summer, .ano, .texto{
+    margin-left: 7%;
+}
+
+button{
+    background-color: rgb(241, 185, 64);
+    padding: 20px 35px;
+    color: snow;
+    border-radius: 50px;
+    font-size: 1.2rem;
+    margin: 20px 0px 0px 30%;
+}

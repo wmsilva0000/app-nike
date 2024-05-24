@@ -1,6 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Holtwood+One+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 ion-menu-button {
   color: var(--ion-color-primary);
 }
+
 
 #container {
   text-align: center;
@@ -25,4 +29,79 @@ ion-menu-button {
 
 #container a {
   text-decoration: none;
+}
+
+.logo{
+  width: 70px;
+}
+
+ion-toolbar{
+  width: 20vw;
+  --background: none;
+}
+
+ion-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 20px;
+  box-shadow: none;
+}
+
+ion-icon{
+  width: 50px;
+  height: 40px;
+}
+
+#a1, #a2, #a3{
+  width: 93px;
+  border-radius: 20px;
+}
+
+#a1{
+  background-color: yellow;
+}
+
+#a4{
+  width: 350px;
+}
+
+.kyrie, .preço, .valor{
+  color: #164773;
+  font-family: "Holtwood One SC", serif;
+  margin: 0px;
+}
+
+.calçados, .texto{
+  color: #164773;
+  font-family: "Istok Web", sans-serif;
+}
+
+.valores{
+  flex-direction: column;
+}
+
+.share-icon, .shopping-icon{
+  filter: invert(1);
+
+}
+
+.box{
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.iconBox{
+  gap: 20px;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.iconBox img{
+  width: 30px;
+  height: 30px;
+}
+
+.box2{
+  padding: 0 15px;
 }

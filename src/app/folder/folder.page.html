@@ -3,19 +3,53 @@
     <ion-buttons slot="start">
       <ion-menu-button></ion-menu-button>
     </ion-buttons>
-    <ion-title>{{ folder }}</ion-title>
+    <ion-title>
+    </ion-title>
   </ion-toolbar>
+  <ion-img class="logo"
+  src="../../assets/img/R.png"
+  alt="The Wisconsin State Capitol building in Madison, WI at night"
+  ></ion-img>
+  <ion-icon name="person-circle-outline"></ion-icon>
+  
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">{{ folder }}</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <ion-row>
+    <ion-card id="a1">
+      <img alt="Silhouette of mountains" src="../../assets/img/image-removebg-preview (3) 2.png" />
+    </ion-card>
 
-  <div id="container">
-    <strong class="capitalize">{{ folder }}</strong>
-    <p>Explore <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
+    <ion-card id="a2">
+      <img alt="Silhouette of mountains" src="../../assets/img/image-removebg-preview 1.png" />
+    </ion-card>
+
+    <ion-card id="a3">
+      <img alt="Silhouette of mountains" src="../../assets/img/image 1.png" />
+    </ion-card>
+
+  </ion-row>
+
+  <ion-row>
+    <img id="a4" src="../../assets/img/image-removebg-preview (3) 2-1.png" alt="">
+  </ion-row>
+
+  <ion-row class="box2">
+     <h1 class="kyrie">KYRIE IFINITY</h1>
+     <h3 class="calçados"> Calçados para basquete</h3>
+     <p class="texto">Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado </p>
+    </ion-row>
+
+  <ion-row class="box">
+    <ion-row class="valores">
+      <h6 class="preço"> Preço</h6>
+      <h1 class="valor">$799</h1>
+    </ion-row>
+      
+    <ion-row class="iconBox">
+      <img src="../../assets/img/share 1.png" alt="" class="share-icon">
+      <img src="../../assets/img/shopping-bag 1.png" alt="" class="shopping-icon">
+    </ion-row>
+  </ion-row>
+
 </ion-content>
